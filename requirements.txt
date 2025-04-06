@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+scikit-learn
+tensorflow
+xgboost
+matplotlib
+finbert-embedding
+requests
