@@ -1,77 +1,105 @@
-Marketsense overview-
-This Project is a stock market sentiment analysis and prediction system built using Python and Streamlit. It uses the Polygon API to fetch real-time stock data and news articles. Sentiment analysis is performed with the FinBERT model, while stock price prediction is done using a hybrid model combining LSTM and XGBoost. The app provides an interactive dashboard where users can input stock symbols, view sentiment scores, and see future price predictions based on sentiment and technical indicators.
-To run the project, clone the repository, install the required packages from requirements.txt, and launch the Streamlit app with streamlit run app.py. This project is designed to demonstrate how machine learning, sentiment analysis, and financial data can be combined into an easy-to-use web application. It is ideal for anyone interested in finance, AI, or real-time data-driven stock market predictions.
+# 📈 MarketSense
 
-Team members information:
-Nikhil kumar-23bds038@iiitdwd.ac.in
-Palak gupta-23bds042@iiitdwd.ac.in
-Pradnesh Fernandez-23bds044@iiitdwd.ac.in
-Shivansh shukla-23bds054@iiitdwd.ac.in
-Shree vats-23bds055@iiitdwd.ac.in
-Vaibhav sharma- 23bds066@iiitdwd.ac.in
+**MarketSense** is a stock market sentiment analysis and prediction system built using Python and Streamlit.  
+It combines real-time stock data, news sentiment analysis, and machine learning models to provide stock price predictions.
 
-How to use this git repo-
-Installation
-1. Clone the Repository
+---
 
+## 🧠 Project Overview
 
+- Fetches real-time stock data and news articles using **Polygon API**.
+- Performs sentiment analysis using the **FinBERT** model.
+- Predicts stock prices with a **hybrid LSTM + XGBoost** model.
+- Provides an interactive dashboard where users:
+  - Input stock symbols
+  - View sentiment scores
+  - See future price predictions based on sentiment and technical indicators
+
+This project demonstrates how **machine learning**, **sentiment analysis**, and **financial data** can be combined into a real-time, user-friendly application.  
+Ideal for finance enthusiasts, AI researchers, and anyone interested in stock market predictions!
+
+---
+
+## 👥 Team Members
+
+- **Nikhil Kumar** - 23bds038@iiitdwd.ac.in
+- **Palak Gupta** - 23bds042@iiitdwd.ac.in
+- **Pradnesh Fernandez** - 23bds044@iiitdwd.ac.in
+- **Shivansh Shukla** - 23bds054@iiitdwd.ac.in
+- **Shree Vats** - 23bds055@iiitdwd.ac.in
+- **Vaibhav Sharma** - 23bds066@iiitdwd.ac.in
+
+---
+
+## 🚀 How to Use This Git Repository
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/nukee7/SESproject.git
+cd SESproject
+```
 
+### 2. Install the Required Packages
 
+Make sure you have **Python 3.11** or above installed.
 
-Install the Required Packages
-
-Make sure you have Python 3.11 or above.
-
-
+```bash
 pip install -r requirements.txt
+```
 
+### 3. Set Up API Keys
 
-3. Set Up API Keys
+Create a `.env` file in the root directory:
 
-If you are using APIs like Polygon API or Google News API, create a `.env` file:
-
-
+```plaintext
 POLYGON_API_KEY=your_polygon_api_key
 NEWS_API_KEY=your_news_api_key
+```
 
+Alternatively, you can directly add your API keys inside the code.
 
-Or directly add keys inside the code.
+---
 
-## 🛠 Usage
+## 🛠️ Usage
 
-Run the main script:
+### Run the main script:
 
 ```bash
 python se.py
 ```
 
-Or if it’s a Streamlit app:
+### Or if it’s a Streamlit app:
 
 ```bash
 streamlit run se.py
 ```
 
-✅ It will start analyzing and predicting based on live stock data and news sentiment.
+✅ This will start analyzing and predicting based on live stock data and news sentiment.
 
+---
 
-## 📚 Project Structure
+## 📂 Project Structure
 
 ```bash
 ├── se.py                # Main project script
 ├── requirements.txt     # List of dependencies
 ├── README.md            # Project instructions (this file)
 ├── .env                 # (Optional) API keys
-└── umldiagrams
+└── umldiagrams/         # UML Diagrams for the project
 ```
 
 ---
 
- Tech Stack
+## 🛠 Tech Stack
 
-Python
-Tensorflow - Deep Learning (BERT Sentiment Model)
-XGBoost - Stock Price Regression
-Streamlit - Frontend UI
-Polygon API - Stock data
-ta-lib / ta - Technical Indicators
+- **Python**
+- **TensorFlow** - Deep Learning (BERT Sentiment Model)
+- **XGBoost** - Stock Price Regression
+- **Streamlit** - Frontend UI
+- **Polygon API** - Stock data
+- **ta-lib / ta** - Technical Indicators
+
+---
+
+## ⭐️ Give this project a star if you found it helpful!
