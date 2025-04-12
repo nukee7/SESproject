@@ -100,6 +100,3 @@ streamlit run se.py
 - **Polygon API** - Stock data
 - **ta-lib / ta** - Technical Indicators
 
----
-
-## ⭐️ Give this project a star if you found it helpful!
